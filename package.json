@@ -1,0 +1,20 @@
+{
+  "name": "prettier-config",
+  "version": "1.0.0",
+  "description": "My personal Prettier configuration.",
+  "main": "index.json",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RonanC/prettier-config.git"
+  },
+  "keywords": [
+    "prettier",
+    "configuration"
+  ],
+  "author": "Ronan Connolly <hi@ronanc.xyz>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RonanC/prettier-config/issues"
+  },
+  "homepage": "https://github.com/RonanC/prettier-config#readme"
+}
