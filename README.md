@@ -7,15 +7,17 @@ My personal Prettier configuration.
 In order to use this package:
 
 - Install the package:
+  > This will install the package, and add it to the `devDependencies` list in your `package.json` file:
 
 ```sh
 $ npm install --save-dev @ronanc/prettier-config
 ```
 
-- This will install the package, and add it to the `devDependencies` list in your `package.json` file:
+**package.json**:
 
 ```jsonc
 {
+  // ...
   "devDependencies": {
     "@ronanc/prettier-config": "0.1.0"
   }
@@ -23,7 +25,9 @@ $ npm install --save-dev @ronanc/prettier-config
 ```
 
 - Change your prettier configuration file name to: `.prettierrc.js`.
+  > It needs to be a JS file so you can use `modules.exports`.
 - Require this package in the `.prettierrc.js` file:
+  > Use the JS spread operator to pull all of the properties out of the required package JSON file.
 
 ```js
 module.exports = {
